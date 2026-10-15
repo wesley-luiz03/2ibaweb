@@ -1,26 +1,60 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+  color-scheme: light;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --bg-base: #FAF8F5;
+  --card-bg: #FFFFFF;
+  --card-border: rgba(220, 214, 204, 0.7);
+  --text-main: #1c2618;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FAF8F5 !important;
+  color: #1c2618 !important;
+  font-family: var(--font-sans), sans-serif;
+  overflow-x: hidden;
+}
+
+@theme {
+  --color-iba-green: #55804B;
+  --color-iba-green-hover: #5e8749;
+  --color-iba-green-dark: #2c3d25;
+  --color-iba-lime: #90d46c;
+  --color-iba-ochre: #bf8b16;
+  --color-iba-ochre-hover: #a67710;
+  --color-iba-ochre-light: #eed499;
+  --color-iba-blue: #4898ab;
+  --color-iba-sand: #FAF8F5;
+  --color-iba-cream: #f4f1ea;
+  --color-iba-brown: #775127;
+
+  --font-heading: var(--font-syne), sans-serif;
+  --font-serif: var(--font-serif), serif;
+  --font-sans: var(--font-jakarta), sans-serif;
+  --font-tech: var(--font-mono), monospace;
+}
+
+/* Luz ambiente do cursor */
+#cursor-glow {
+  pointer-events: none;
+  background: radial-gradient(circle 600px at var(--x, 50%) var(--y, 50%), rgba(85, 128, 75, 0.08), rgba(72, 152, 171, 0.04) 50%, transparent 80%);
+}
+
+/* Cartões Editoriais Limpos e Humanos */
+.editorial-card {
+  position: relative;
+  background: #FFFFFF;
+  border: 1px solid rgba(220, 214, 204, 0.7);
+  border-radius: 1.25rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.editorial-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(85, 128, 75, 0.3);
+  box-shadow: 0 12px 32px -8px rgba(44, 61, 37, 0.06);
 }
