@@ -95,7 +95,7 @@ export default function MinisteriosPage() {
                           
                           {/* FOTO DO LÍDER */}
                           <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl bg-stone-200 relative overflow-hidden shrink-0 shadow-inner border border-stone-300">
-                            {membro.foto && membro.foto.includes("http") ? (
+                            {membro.foto && membro.foto.trim() !== "" ? (
                               <Image 
                                 src={membro.foto} 
                                 alt={membro.nome} 

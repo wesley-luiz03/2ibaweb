@@ -8,31 +8,31 @@
         "nome": "Pr. Jocksan Barbosa",
         "cargo": "Pastor Titular",
         "descricao": "Direção espiritual geral, pregação da Palavra, visão ministerial e acompanhamento pastoral da comunidade.",
-        "foto": ""
+        "foto": "/perfil-ministros/ministros-01.jpg"
       },
       {
         "nome": "Pr. Rafael Malafaia",
         "cargo": "Pastor Auxiliar",
         "descricao": "Auxílio direto na condução dos cultos, aconselhamento e frentes de ensino e comunhão.",
-        "foto": ""
+        "foto": "/perfil-ministros/ministros-02.jpg"
       },
       {
         "nome": "Diác. Paulo Pessoa",
         "cargo": "Vice Moderador",
         "descricao": "Apoio administrativo e eclesiástico na liderança e deliberações da igreja.",
-        "foto": ""
+        "foto": "/perfil-ministros/ministros-03.jpg"
       },
       {
         "nome": "Pr. Sérgio Pereira",
         "cargo": "Auxílio Pastoral",
         "descricao": "Apoio ministerial e coordenação de projetos de artes gráficas e publicações.",
-        "foto": ""
+        "foto": "/perfil-ministros/ministros-04.jpg"
       },
       {
         "nome": "Pr. Flavius Costa",
         "cargo": "Auxílio Pastoral",
         "descricao": "Apoio ministerial e atuação junto ao Ministério de Evangelismo e Missões.",
-        "foto": ""
+        "foto": "/perfil-ministros/ministros-05.jpg"
       }
     ]
   },
@@ -45,13 +45,13 @@
         "nome": "Tony Félix",
         "cargo": "Coordenador Diaconal",
         "descricao": "Zela pelo bom andamento organizacional da igreja, preparação da Ceia e assistência às famílias.",
-        "foto": ""
+        "foto": "/perfil-ministros/ministros-06.jpg"
       },
       {
         "nome": "Abinoan Barbosa",
         "cargo": "Diácono",
         "descricao": "Auxílio no cuidado do patrimônio, ordem nos cultos e visitas de assistência humanitária.",
-        "foto": ""
+        "foto": "/perfil-ministros/ministros-07.jpg"
       }
     ]
   },
@@ -64,25 +64,25 @@
         "nome": "Moíses Lopes",
         "cargo": "Primeiro Tesoureiro",
         "descricao": "Gestão financeira, controle orçamentário e relatórios contábeis da instituição.",
-        "foto": ""
+        "foto": "/perfil-ministros/ministros-08.jpg"
       },
       {
         "nome": "Diác. Geovane Braz",
         "cargo": "Segundo Tesoureiro",
         "descricao": "Apoio direto na tesouraria e organização financeira dos departamentos.",
-        "foto": ""
+        "foto": "/perfil-ministros/ministros-09.jpg"
       },
       {
         "nome": "Teresinha Alves",
         "cargo": "Primeira Secretária",
         "descricao": "Atas de reuniões, registo de membros e correspondências oficiais.",
-        "foto": ""
+        "foto": "/perfil-ministros/ministros-10.jpg"
       },
       {
         "nome": "Ana Raquel Santos Rosádia",
         "cargo": "Segunda Secretária",
         "descricao": "Apoio na secretaria geral e organização documental da igreja.",
-        "foto": ""
+        "foto": "/perfil-ministros/ministros-11.jpg"
       }
     ]
   },
@@ -95,7 +95,7 @@
         "nome": "Rafinha e Kellynha",
         "cargo": "Líderes de Jovens e Adolescentes",
         "descricao": "Coordenação de retiros, sociais, aconselhamento, pequenos grupos (PGs), Acampa Teens e EJC.",
-        "foto": ""
+        "foto": "/perfil-ministros/ministros-12.jpg"
       }
     ]
   },
@@ -108,7 +108,7 @@
         "nome": "Deiver e Laiza",
         "cargo": "Líderes de Comunicação",
         "descricao": "Gestão de mídias sociais, transmissões ao vivo, coberturas fotográficas/vídeo e produção multimídia.",
-        "foto": ""
+        "foto": "/perfil-ministros/ministros-13.jpg"
       }
     ]
   },
@@ -121,7 +121,7 @@
         "nome": "Pr. Sérgio Pereira",
         "cargo": "Líder de Artes Gráficas",
         "descricao": "Criação de boletins, folhetos, banners, apostilas e materiais didáticos para a EBD e NG.",
-        "foto": ""
+        "foto": "/perfil-ministros/ministros-14.jpg"
       }
     ]
   },
@@ -134,7 +134,7 @@
         "nome": "Neusa Pereira",
         "cargo": "Líder de Educação Religiosa",
         "descricao": "Planejamento estratégico educacional, currículo de ensino, formação de professores, EBD e EBF.",
-        "foto": ""
+        "foto": "/perfil-ministros/ministros-15.jpg"
       }
     ]
   },
@@ -147,7 +147,7 @@
         "nome": "Pr. Flavius e Pollyana",
         "cargo": "Líderes de Missões",
         "descricao": "Escola de missões, evangelismo pessoal, apoio a campos missionários, campanhas e projetos PEPE.",
-        "foto": ""
+        "foto": "/perfil-ministros/ministros-16.jpg"
       }
     ]
   },
@@ -160,7 +160,7 @@
         "nome": "Geovane e Nalva",
         "cargo": "Líderes do Ministério da Família",
         "descricao": "Coordenação do ECC, retiros masculinos e femininos, cursos MMI e aconselhamento de casais.",
-        "foto": ""
+        "foto": "/perfil-ministros/ministros-17.jpg"
       }
     ]
   },
@@ -173,7 +173,7 @@
         "nome": "Leandro e Késia",
         "cargo": "Líderes do Ministério Infantil",
         "descricao": "Coordenação do Culto Infantil Nova Geração, EBD Infantil, berçário, EBF e Day Camp.",
-        "foto": ""
+        "foto": "/perfil-ministros/ministros-18.jpg"
       }
     ]
   },
@@ -186,7 +186,7 @@
         "nome": "Eziel e Joselma",
         "cargo": "Líderes de Ação Social",
         "descricao": "Atendimento a necessidades físicas, emocionais e espirituais, visitas e parcerias com o PEPE.",
-        "foto": ""
+        "foto": "/perfil-ministros/ministros-19.jpg"
       }
     ]
   },
@@ -199,7 +199,7 @@
         "nome": "Ricardo e Gerlane",
         "cargo": "Líderes de Intercessão",
         "descricao": "Coordenação de mulheres de oração, Gideões da Oração, vigílias e intercessão nos cultos.",
-        "foto": ""
+        "foto": "/perfil-ministros/ministros-20.jpg"
       }
     ]
   },
@@ -212,7 +212,7 @@
         "nome": "Elizio Gomes",
         "cargo": "Líder do Ministério Mãos de Deus",
         "descricao": "Ensino em LIBRAS, integração, evangelismo, estudos bíblicos e discipulado para surdos.",
-        "foto": ""
+        "foto": "/perfil-ministros/ministros-21.jpg"
       }
     ]
   },
@@ -222,10 +222,10 @@
     "sub": "Louvor & Adoração",
     "membros": [
       {
-        "nome": "Indefinido",
+        "nome": "Cesinha",
         "cargo": "Líder de Música",
         "descricao": "Direção do grupo de louvor, louvor NG, corais, coreart, som, bandas e escola de música.",
-        "foto": ""
+        "foto": "/perfil-ministros/ministros-22.jpg"
       }
     ]
   },
@@ -238,7 +238,7 @@
         "nome": "Carmita",
         "cargo": "Líder da Terceira Idade",
         "descricao": "Organização do retiro do idoso, oficinas de artesanato, visitas e bazares solidários.",
-        "foto": ""
+        "foto": "/perfil-ministros/ministros-23.jpg"
       }
     ]
   },
@@ -251,7 +251,7 @@
         "nome": "Paulo Pessoa, Hugo Lins, Waldemir Barbosa, Isaías Marques, Williams da Cunha",
         "cargo": "Equipe de Apoio Administrativo",
         "descricao": "Suporte administrativo, logístico e patrimonial às atividades da igreja.",
-        "foto": ""
+        "foto": "/perfil-ministros/ministros-24.jpg"
       }
     ]
   }

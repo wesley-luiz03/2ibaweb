@@ -1,5 +1,15 @@
 [
   {
+    "id": "nov-1",
+    "day": "01",
+    "month": "NOV",
+    "title": "Encerramento Mês da Garotada",
+    "time": "Culto da Noite",
+    "location": "Segunda Igreja Batista de Areias",
+    "category": "Ministério Infantil",
+    "image": "/perfil-eventos/evento-01.jpg"
+  },
+  {
     "id": "nov-2",
     "day": "06",
     "month": "NOV",
@@ -7,7 +17,7 @@
     "time": "Dias 06 a 08",
     "location": "Local do Retiro (A Definir)",
     "category": "Família",
-    "image": "https://lh3.googleusercontent.com/d/13BvJ8y_5w-P_qH3eH_kHj7pZlT-M_vE2"
+    "image": "/perfil-eventos/evento-02.jpg"
   },
   {
     "id": "nov-3",
@@ -17,7 +27,7 @@
     "time": "Acompanhar horário oficial",
     "location": "Segunda Igreja Batista de Areias",
     "category": "Mãos de Deus",
-    "image": "https://lh3.googleusercontent.com/d/1gC-B0_z_lBwF9-q5vHk_jJqD_kK0-tZ8"
+    "image": "/perfil-eventos/evento-03.jpg"
   },
   {
     "id": "nov-4",
@@ -27,7 +37,7 @@
     "time": "Acompanhar horário oficial",
     "location": "Segunda Igreja Batista de Areias",
     "category": "Intercessão",
-    "image": "https://lh3.googleusercontent.com/d/1zQv2yXwGjC9pWbV7lF0_k3H4JtO_q8M6"
+    "image": "/perfil-eventos/evento-04.jpg"
   },
   {
     "id": "nov-5",
@@ -37,7 +47,7 @@
     "time": "O Dia Todo",
     "location": "Local a Definir",
     "category": "Missões",
-    "image": "https://lh3.googleusercontent.com/d/10BwL5_jQ9xJ0ZkTvW6yN_pF2tD_xK_b3"
+    "image": "/perfil-eventos/evento-05.jpg"
   },
   {
     "id": "nov-6",
@@ -47,7 +57,7 @@
     "time": "Período da Noite",
     "location": "Segunda Igreja Batista de Areias",
     "category": "Missões",
-    "image": "https://lh3.googleusercontent.com/d/1VvP0yQ2zU9tO-b_x-Y4-kL8oQ-lO8b6Y"
+    "image": "/perfil-eventos/evento-06.jpg"
   },
   {
     "id": "nov-7",
@@ -57,7 +67,7 @@
     "time": "Culto Dominical",
     "location": "Segunda Igreja Batista de Areias",
     "category": "Música",
-    "image": "https://lh3.googleusercontent.com/d/1N_x9-yJ4wZ5qK0wP3r-jF2wO5pQ2_bH4"
+    "image": "/perfil-eventos/evento-07.jpg"
   },
   {
     "id": "nov-8",
@@ -67,7 +77,7 @@
     "time": "Acompanhar horário oficial",
     "location": "Segunda Igreja Batista de Areias",
     "category": "Missões",
-    "image": "https://lh3.googleusercontent.com/d/1xZ-P2k9wU2-j9yT-Q3lV8vF-k4K_tX7Y"
+    "image": "/perfil-eventos/evento-08.jpg"
   },
   {
     "id": "nov-9",
@@ -77,7 +87,7 @@
     "time": "Tarde",
     "location": "Praça de Areias (A Definir)",
     "category": "Missões",
-    "image": "https://lh3.googleusercontent.com/d/1_9j2yGk_pM3yV_tL0vY9yQ_vR9jO_F8T"
+    "image": "/perfil-eventos/evento-09.jpg"
   },
   {
     "id": "nov-10",
@@ -87,7 +97,7 @@
     "time": "Cultos Dominicais",
     "location": "Segunda Igreja Batista de Areias",
     "category": "Igreja",
-    "image": "https://lh3.googleusercontent.com/d/1pX_wV2_mZ-kH5jG_y9V3tC-tL9yN_xK9"
+    "image": "/perfil-eventos/evento-10.jpg"
   },
   {
     "id": "nov-11",
@@ -97,7 +107,7 @@
     "time": "Acompanhar horário oficial",
     "location": "Segunda Igreja Batista de Areias",
     "category": "Terceira Idade",
-    "image": "https://lh3.googleusercontent.com/d/1yZ9wN-vG4_bL9xZ_vP2-vK9qY5tQ_r3W"
+    "image": "/perfil-eventos/evento-11.jpg"
   },
   {
     "id": "nov-12",
@@ -107,7 +117,7 @@
     "time": "O Dia Todo",
     "location": "Cidade de Poção/PE",
     "category": "Diaconia",
-    "image": "https://lh3.googleusercontent.com/d/1_M4wR-yT5xL_nQ9xJ-kT2xP9xO-pK_s0"
+    "image": "/perfil-eventos/evento-12.jpg"
   },
   {
     "id": "nov-13",
@@ -117,6 +127,6 @@
     "time": "Culto Dominical (com Sessão Adm)",
     "location": "Segunda Igreja Batista de Areias",
     "category": "Igreja",
-    "image": "https://lh3.googleusercontent.com/d/1_L7tC_pY8xG_nR9yZ_mU2rT5yL_wQ_v1"
+    "image": "/perfil-eventos/evento-13.jpg"
   }
 ]
