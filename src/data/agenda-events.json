@@ -1,129 +1,122 @@
-{
-  "cultosFixos": [
-    {
-      "id": "ebd",
-      "dia": "Domingo",
-      "horario": "09:00",
-      "titulo": "Escola Bíblica Dominical",
-      "descricao": "Classes divididas por faixa etária para estudo sistemático e profundo das Escrituras Sagradas.",
-      "local": "Presencial no Templo",
-      "tagColor": "text-iba-ochre border-iba-ochre/30 bg-iba-ochre/10",
-      "badgeText": "Domingo • 09:00"
-    },
-    {
-      "id": "culto-familia",
-      "dia": "Domingo",
-      "horario": "18:00",
-      "titulo": "Culto da Família",
-      "descricao": "Nosso culto principal de celebração, louvor congregacional e pregação da Palavra para toda a família.",
-      "local": "Transmissão ao Vivo disponível",
-      "tagColor": "text-iba-green border-iba-green/30 bg-iba-green/10",
-      "badgeText": "Domingo • 18:00"
-    },
-    {
-      "id": "culto-oracao",
-      "dia": "Quarta-feira",
-      "horario": "19:30",
-      "titulo": "Culto de Oração",
-      "descricao": "Noite dedicada à intercessão comunitária, pedidos de oração e estudo bíblico expositivo dinâmico.",
-      "local": "Presencial e Online",
-      "tagColor": "text-iba-blue border-iba-blue/30 bg-iba-blue/10",
-      "badgeText": "Quarta-feira • 19:30"
-    }
-  ],
-  "eventosOutubro2026": [
-    {
-      "id": "out-03",
-      "date": "03/10",
-      "day": "Sábado",
-      "title": "Convive LIBRAS – MMD",
-      "category": "Acessibilidade / MMD",
-      "description": "Encontro especial do Ministério com Surdos e Mudos promovendo inclusão e comunhão através da Língua Brasileira de Sinais.",
-      "local": "Salas de Educação Cristã",
-      "tagColor": "bg-indigo-600 text-white"
-    },
-    {
-      "id": "out-04",
-      "date": "04/10",
-      "day": "Domingo",
-      "title": "Ceia do Senhor & Abertura Mês da Garotada",
-      "category": "Ministério Infantil",
-      "description": "Celebração da Santa Ceia e abertura oficial do Mês da Garotada com dedicação especial às famílias e crianças.",
-      "local": "Templo Principal - 2IBA Areias",
-      "tagColor": "bg-purple-600 text-white",
-      "isFeaturedChild": true
-    },
-    {
-      "id": "out-10a",
-      "date": "10/10",
-      "day": "Sábado",
-      "title": "Piquenique – Ministério Infantil",
-      "category": "Ministério Infantil",
-      "description": "Manhã de lazer, brincadeiras e comunhão ao ar livre para as crianças da 2IBA e convidados.",
-      "local": "Área Verde / Praça",
-      "tagColor": "bg-purple-600 text-white",
-      "isFeaturedChild": true
-    },
-    {
-      "id": "out-10b",
-      "date": "10/10",
-      "day": "Sábado",
-      "title": "Impacto Evangelístico na Praça",
-      "category": "Missões",
-      "description": "Ação evangelística e social para abençoar a comunidade local com louvor e palavra de esperança.",
-      "local": "Praça do Bairro",
-      "tagColor": "bg-iba-ochre text-white"
-    },
-    {
-      "id": "out-17",
-      "date": "17/10",
-      "day": "Sábado",
-      "title": "Nossa História – Comunicações",
-      "category": "Comunicação",
-      "description": "Encontro especial do Ministério de Comunicação resgatando a trajetória, marcos e testemunhos da nossa igreja.",
-      "local": "Auditório da Igreja",
-      "tagColor": "bg-iba-blue text-white"
-    },
-    {
-      "id": "out-24",
-      "date": "24/10",
-      "day": "Sábado",
-      "title": "Encontro com ELAS – MM",
-      "category": "Missões / Mulheres",
-      "description": "Reunião edificante do Ministério de Mulheres com palestras, louvor e comunhão.",
-      "local": "Templo Principal",
-      "tagColor": "bg-pink-600 text-white"
-    },
-    {
-      "id": "out-25",
-      "date": "25/10",
-      "day": "Domingo",
-      "title": "Sessão Administrativa",
-      "category": "Administrativo",
-      "description": "Assembleia geral ordinária para deliberações e alinhamento dos projetos e andamento da igreja.",
-      "local": "Templo Principal",
-      "tagColor": "bg-stone-700 text-white"
-    },
-    {
-      "id": "out-30",
-      "date": "30/10",
-      "day": "Sexta-feira",
-      "title": "Culto da 3ª Idade",
-      "category": "Terceira Idade",
-      "description": "Tarde de louvor, palavra e comunhão abençoada dedicada aos irmãos da melhor idade.",
-      "local": "Salão Social",
-      "tagColor": "bg-emerald-700 text-white"
-    },
-    {
-      "id": "out-31",
-      "date": "31/10",
-      "day": "Sábado",
-      "title": "Day Camp – Ministério Infantil",
-      "category": "Ministério Infantil",
-      "description": "Encerramento marcante do Mês da Garotada com um dia inteiro de atividades recreativas, dinâmicas e alegria.",
-      "local": "Chácara / Acampamento 2IBA",
-      "tagColor": "bg-purple-600 text-white",
-      "isFeaturedChild": true
-    }
-  ]
-}
+[
+  {
+    "id": "nov-2",
+    "day": "06",
+    "month": "NOV",
+    "title": "Retiro para Casais",
+    "time": "Dias 06 a 08",
+    "location": "Local do Retiro (A Definir)",
+    "category": "Família",
+    "image": "https://lh3.googleusercontent.com/d/13BvJ8y_5w-P_qH3eH_kHj7pZlT-M_vE2"
+  },
+  {
+    "id": "nov-3",
+    "day": "07",
+    "month": "NOV",
+    "title": "Culto em LIBRAS",
+    "time": "Acompanhar horário oficial",
+    "location": "Segunda Igreja Batista de Areias",
+    "category": "Mãos de Deus",
+    "image": "https://lh3.googleusercontent.com/d/1gC-B0_z_lBwF9-q5vHk_jJqD_kK0-tZ8"
+  },
+  {
+    "id": "nov-4",
+    "day": "13",
+    "month": "NOV",
+    "title": "Vigília",
+    "time": "Acompanhar horário oficial",
+    "location": "Segunda Igreja Batista de Areias",
+    "category": "Intercessão",
+    "image": "https://lh3.googleusercontent.com/d/1zQv2yXwGjC9pWbV7lF0_k3H4JtO_q8M6"
+  },
+  {
+    "id": "nov-5",
+    "day": "14",
+    "month": "NOV",
+    "title": "Dia de Lazer e Evangelismo (Homens)",
+    "time": "O Dia Todo",
+    "location": "Local a Definir",
+    "category": "Missões",
+    "image": "https://lh3.googleusercontent.com/d/10BwL5_jQ9xJ0ZkTvW6yN_pF2tD_xK_b3"
+  },
+  {
+    "id": "nov-6",
+    "day": "14",
+    "month": "NOV",
+    "title": "Acampadentro MR",
+    "time": "Período da Noite",
+    "location": "Segunda Igreja Batista de Areias",
+    "category": "Missões",
+    "image": "https://lh3.googleusercontent.com/d/1VvP0yQ2zU9tO-b_x-Y4-kL8oQ-lO8b6Y"
+  },
+  {
+    "id": "nov-7",
+    "day": "15",
+    "month": "NOV",
+    "title": "Aniversário do Grupo de Louvor",
+    "time": "Culto Dominical",
+    "location": "Segunda Igreja Batista de Areias",
+    "category": "Música",
+    "image": "https://lh3.googleusercontent.com/d/1N_x9-yJ4wZ5qK0wP3r-jF2wO5pQ2_bH4"
+  },
+  {
+    "id": "nov-8",
+    "day": "17",
+    "month": "NOV",
+    "title": "Aniversário dos Embaixadores do Rei",
+    "time": "Acompanhar horário oficial",
+    "location": "Segunda Igreja Batista de Areias",
+    "category": "Missões",
+    "image": "https://lh3.googleusercontent.com/d/1xZ-P2k9wU2-j9yT-Q3lV8vF-k4K_tX7Y"
+  },
+  {
+    "id": "nov-9",
+    "day": "21",
+    "month": "NOV",
+    "title": "Impacto Evangelístico na Praça",
+    "time": "Tarde",
+    "location": "Praça de Areias (A Definir)",
+    "category": "Missões",
+    "image": "https://lh3.googleusercontent.com/d/1_9j2yGk_pM3yV_tL0vY9yQ_vR9jO_F8T"
+  },
+  {
+    "id": "nov-10",
+    "day": "22",
+    "month": "NOV",
+    "title": "Dia de Ação de Graças (Ceia do Senhor)",
+    "time": "Cultos Dominicais",
+    "location": "Segunda Igreja Batista de Areias",
+    "category": "Igreja",
+    "image": "https://lh3.googleusercontent.com/d/1pX_wV2_mZ-kH5jG_y9V3tC-tL9yN_xK9"
+  },
+  {
+    "id": "nov-11",
+    "day": "27",
+    "month": "NOV",
+    "title": "Culto da 3ª. Idade",
+    "time": "Acompanhar horário oficial",
+    "location": "Segunda Igreja Batista de Areias",
+    "category": "Terceira Idade",
+    "image": "https://lh3.googleusercontent.com/d/1yZ9wN-vG4_bL9xZ_vP2-vK9qY5tQ_r3W"
+  },
+  {
+    "id": "nov-12",
+    "day": "28",
+    "month": "NOV",
+    "title": "Ação Natalina em Poção",
+    "time": "O Dia Todo",
+    "location": "Cidade de Poção/PE",
+    "category": "Diaconia",
+    "image": "https://lh3.googleusercontent.com/d/1_M4wR-yT5xL_nQ9xJ-kT2xP9xO-pK_s0"
+  },
+  {
+    "id": "nov-13",
+    "day": "29",
+    "month": "NOV",
+    "title": "Profissão de Fé e Batismo",
+    "time": "Culto Dominical (com Sessão Adm)",
+    "location": "Segunda Igreja Batista de Areias",
+    "category": "Igreja",
+    "image": "https://lh3.googleusercontent.com/d/1_L7tC_pY8xG_nR9yZ_mU2rT5yL_wQ_v1"
+  }
+]

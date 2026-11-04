@@ -8,9 +8,9 @@ export function LocationSection() {
   return (
     <section id="localizacao" className="py-24 px-6 max-w-7xl mx-auto">
       <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
-        <div>
-          <span className="text-xs font-tech uppercase tracking-widest text-iba-green">Venha nos visitar</span>
-          <h2 className="font-sans font-black tracking-tight text-stone-900 uppercase text-4xl md:text-5xl mt-2">Nossa Localização</h2>
+        <div className="max-w-2xl">
+          <span className="text-xs font-tech uppercase tracking-widest text-iba-green font-bold block mb-2">Venha nos visitar</span>
+          <h2 className="font-heading text-4xl sm:text-5xl font-extrabold text-[#1c2618] tracking-tight">Nossa Localização</h2>
         </div>
         <p className="text-stone-600 text-xs sm:text-sm max-w-sm">
           Estamos de portas abertas em Areias, Recife. Venha participar dos nossos cultos e momentos de comunhão.

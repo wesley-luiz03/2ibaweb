@@ -34,9 +34,9 @@ export function LiveSection() {
   return (
     <section id="transmissoes" className="py-24 px-6 max-w-7xl mx-auto">
       <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
-        <div>
-          <span className="text-xs font-tech uppercase tracking-widest text-iba-ochre">Acompanhe ao Vivo</span>
-          <h2 className="font-sans font-black tracking-tight text-stone-900 uppercase text-4xl md:text-5xl mt-2">Transmissões e Cultos</h2>
+        <div className="max-w-2xl">
+          <span className="text-xs font-tech uppercase tracking-widest text-iba-ochre font-bold block mb-2">Acompanhe ao Vivo</span>
+          <h2 className="font-heading text-4xl sm:text-5xl font-extrabold text-[#1c2618] tracking-tight">Transmissões e Cultos</h2>
         </div>
         <p className="text-stone-600 text-xs sm:text-sm max-w-sm">
           Acompanhe nossos cultos ao vivo ou assista às últimas mensagens transmitidas diretamente do nosso canal.
@@ -48,7 +48,7 @@ export function LiveSection() {
         <TechCard className="lg:col-span-4 p-8 !bg-gradient-to-br !from-[#20311c] !to-[#141f12] !text-white flex flex-col justify-between">
           <div>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-tech text-iba-lime uppercase tracking-wider mb-6">
-              <span className="w-1.5 h-1.5 rounded-full bg-iba-lime animate-pulse"></span>
+              <span className="w-2.5 h-2.5 rounded-sm bg-emerald-300 border border-emerald-100 shadow-sm shadow-emerald-400/50 animate-pulse"></span>
               Cultos Online
             </div>
             <h3 className="font-heading text-2xl sm:text-3xl font-bold leading-tight mb-4 text-white">

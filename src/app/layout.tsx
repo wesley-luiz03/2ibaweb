@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, Syne, JetBrains_Mono, Lora } from "next/font/google";
+import { TransitionProvider } from "@/context/TransitionContext";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import "./globals.css";
@@ -42,9 +43,11 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={`${jakarta.variable} ${syne.variable} ${mono.variable} ${lora.variable} scroll-smooth`}>
       <body className="min-h-screen bg-[#FAF8F5] text-stone-900 flex flex-col selection:bg-iba-green selection:text-white">
-        <Navbar />
-        <main className="flex-grow">{children}</main>
-        <Footer />
+        <TransitionProvider>
+          <Navbar />
+          <main className="flex-grow">{children}</main>
+          <Footer />
+        </TransitionProvider>
       </body>
     </html>
   );

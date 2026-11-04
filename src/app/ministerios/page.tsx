@@ -1,135 +1,138 @@
 "use client";
 
-import Link from "next/link";
-import { TechCard } from "@/components/ui/TechCard";
-import { Users, Heart, BookOpen, Music, Smile, ShieldCheck, Clock, ArrowLeft } from "lucide-react";
+import React, { useState } from "react";
+import { Users, ChevronDown, Award } from "lucide-react";
 import { Footer } from "@/components/layout/Footer";
-
-const MINISTERIOS = [
-  {
-    titulo: "2iba Kids",
-    sub: "Ministério Infantil",
-    descricao: "Salas de aula estruturadas, recreação com supervisão e ensino bíblico lúdico para crianças enquanto os pais participam do culto.",
-    icone: Smile,
-    color: "bg-iba-blue",
-  },
-  {
-    titulo: "Ministério de Louvor",
-    sub: "Adoração & Música",
-    descricao: "Equipe dedicada a conduzir a igreja em cânticos espirituais, louvor congregacional genuíno e exaltação a Deus com excelência.",
-    icone: Music,
-    color: "bg-iba-green",
-  },
-  {
-    titulo: "Escola Bíblica (EBD)",
-    sub: "Ensino Teológico",
-    descricao: "Classes semanais de estudo sistemático das Escrituras para todas as idades, promovendo crescimento espiritual e doutrinário.",
-    icone: BookOpen,
-    color: "bg-iba-ochre",
-  },
-  {
-    titulo: "Ministério de Intercessão",
-    sub: "Oração & Cuidado",
-    descricao: "Grupo dedicado à intercessão constante pelas famílias, petições da igreja e clamor espiritual nas reuniões de oração.",
-    icone: Heart,
-    color: "bg-iba-green",
-  },
-  {
-    titulo: "Ação Social Comunitária",
-    sub: "Amor Prático",
-    descricao: "Projetos de assistência a famílias carentes, distribuição de cestas básicas e apoio humanitário no bairro de Areias e arredores.",
-    icone: Users,
-    color: "bg-iba-blue",
-  },
-  {
-    titulo: "Acolhimento & Recepção",
-    sub: "Comunidade Acolhedora",
-    descricao: "Equipe de voluntários focada em receber novos visitantes com alegria, indicar assentos e apresentar as dependências da igreja.",
-    icone: ShieldCheck,
-    color: "bg-iba-ochre",
-  },
-];
+import ministeriosData from "@/data/ministerios.json";
+import Image from "next/image";
 
 export default function MinisteriosPage() {
+  // Controla qual membro está expandido em cada ministério (chave: "idMinisterio-indiceMembro")
+  const [expandedMember, setExpandedMember] = useState<string | null>(null);
+
+  const toggleMember = (key: string) => {
+    setExpandedMember(expandedMember === key ? null : key);
+  };
+
   return (
     <div className="min-h-screen bg-[#FAF8F5] relative flex flex-col justify-between">
-      <main className="max-w-7xl mx-auto px-6 pt-36 pb-24 relative z-10 w-full flex-1">
-        {/* CONTEÚDO ENVOLVIDO NA CAMADA DESFOCADA */}
-        <div className="blur-md pointer-events-none opacity-40 select-none transition-all duration-300">
-          <div className="mb-12">
-            <div className="flex items-center gap-2">
-              <span className="text-xs font-tech uppercase tracking-widest text-iba-ochre font-bold flex items-center gap-1.5">
-                <Users className="w-3.5 h-3.5" /> Servindo com Dons e Talentos
-              </span>
-              <span className="px-2 py-0.5 text-[10px] font-tech bg-iba-ochre/10 text-iba-ochre rounded font-semibold">
-                Comunidade Ativa
-              </span>
-            </div>
-            <h1 className="font-serif text-4xl sm:text-6xl font-normal text-[#1c2618] mt-2 tracking-tight">
-              Nossos Ministérios
-            </h1>
-            <p className="text-stone-600 text-sm sm:text-base max-w-xl mt-3 leading-relaxed font-sans">
-              Conheça as frentes de serviço e comunhão da Segunda Igreja Batista em Areias. Há um lugar para você servir e crescer em amor.
-            </p>
+      <main className="max-w-5xl mx-auto px-6 pt-36 pb-24 relative z-10 w-full flex-1">
+        
+        {/* CABEÇALHO */}
+        <div className="mb-12">
+          <div className="flex items-center gap-2">
+            <span className="text-xs font-tech uppercase tracking-widest text-iba-green font-bold flex items-center gap-1.5">
+              <Users className="w-3.5 h-3.5" /> Servindo com Dons e Talentos
+            </span>
+            <span className="px-2 py-0.5 text-[10px] font-tech bg-iba-green/10 text-iba-green rounded font-semibold">
+              Oficial 2026
+            </span>
           </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {MINISTERIOS.map((item, idx) => {
-              const Icon = item.icone;
-              return (
-                <TechCard key={idx} className="p-8 flex flex-col justify-between">
-                  <div>
-                    <div className={`w-12 h-12 rounded-2xl ${item.color} text-white flex items-center justify-center mb-6 shadow-md`}>
-                      <Icon className="w-6 h-6" />
-                    </div>
-                    <span className="text-[10px] font-tech uppercase font-bold tracking-wider text-stone-500">
-                      {item.sub}
-                    </span>
-                    <h3 className="font-serif text-2xl font-bold text-[#1c2618] mt-1 mb-3">
-                      {item.titulo}
-                    </h3>
-                    <p className="text-sm text-stone-600 leading-relaxed mb-6 font-sans">
-                      {item.descricao}
-                    </p>
-                  </div>
-                  <div className="pt-4 border-t border-stone-200">
-                    <span className="text-xs font-tech font-bold text-iba-green">Participe deste ministério →</span>
-                  </div>
-                </TechCard>
-              );
-            })}
-          </div>
-        </div>
-      </main>
-
-      {/* CAIXA DE AVISO CENTRALIZADA SOBREPOSTA (OVERLAY DE MANUTENÇÃO) */}
-      <div className="fixed inset-0 z-50 flex items-center justify-center p-6 bg-black/40 backdrop-blur-sm">
-        <div className="bg-white rounded-3xl p-8 sm:p-12 max-w-lg w-full shadow-2xl border border-stone-200 text-center animate-fadeIn relative overflow-hidden">
-          <div className="w-16 h-16 rounded-2xl bg-iba-green/10 text-iba-green flex items-center justify-center mx-auto mb-6 shadow-sm">
-            <Clock className="w-8 h-8 animate-pulse" />
-          </div>
-
-          <span className="text-xs font-tech uppercase tracking-widest text-iba-green font-bold block mb-2">
-            Atualização em Andamento
-          </span>
-
-          <h2 className="font-serif text-3xl font-normal text-[#1c2618] mb-4">
-            Página em Manutenção
-          </h2>
-
-          <p className="text-stone-600 text-sm leading-relaxed font-sans mb-8">
-            Estamos reorganizando a estrutura dos nossos ministérios para melhor servir à nossa comunidade. Em breve todas as informações estarão disponíveis aqui!
+          <h1 className="font-heading text-4xl sm:text-6xl font-extrabold text-[#1c2618] mt-2 tracking-tight">
+            Nossos Ministérios
+          </h1>
+          <p className="text-stone-700 text-sm sm:text-base max-w-xl mt-3 leading-relaxed font-sans">
+            Passe o mouse ou toque sobre os nomes para expandir e conhecer a liderança detalhada de cada departamento.
           </p>
-
-          <Link
-            href="/"
-            className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-iba-green hover:bg-iba-green-hover text-white font-bold text-xs uppercase tracking-wider transition shadow-lg w-full sm:w-auto"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Voltar para o Início
-          </Link>
         </div>
-      </div>
+
+        {/* LISTA DE RETÂNGULOS POR MINISTÉRIO */}
+        <div className="flex flex-col gap-8">
+          {ministeriosData.map((ministerio) => (
+            <div 
+              key={ministerio.id}
+              className="bg-white rounded-3xl border border-stone-200 shadow-sm overflow-hidden p-6 sm:p-8"
+            >
+              {/* TÍTULO DO MINISTÉRIO (O RETÂNGULO PAI) */}
+              <div className="mb-6 pb-4 border-b border-stone-100">
+                <span className="text-[10px] font-tech uppercase font-bold tracking-wider text-iba-green block mb-1">
+                  {ministerio.sub}
+                </span>
+                <h2 className="font-heading text-2xl sm:text-3xl font-bold text-[#1c2618]">
+                  {ministerio.titulo}
+                </h2>
+              </div>
+
+              {/* LISTA DE FAIXAS/MEMBROS DENTRO DO RETÂNGULO */}
+              <div className="flex flex-col gap-3">
+                {ministerio.membros.map((membro, idx) => {
+                  const uniqueKey = `${ministerio.id}-${idx}`;
+                  const isExpanded = expandedMember === uniqueKey;
+
+                  return (
+                    <div
+                      key={idx}
+                      onMouseEnter={() => setExpandedMember(uniqueKey)}
+                      onClick={() => toggleMember(uniqueKey)}
+                      className={`rounded-2xl border transition-all duration-300 cursor-pointer overflow-hidden ${
+                        isExpanded 
+                          ? "bg-[#f4f1ea] border-iba-green/50 shadow-md" 
+                          : "bg-stone-50/60 border-stone-200 hover:border-iba-green/30 hover:bg-stone-50"
+                      }`}
+                    >
+                      {/* CABEÇALHO DA FAIXA (NOME DO LÍDER) */}
+                      <div className="p-4 sm:p-5 flex items-center justify-between">
+                        <div className="flex items-center gap-3">
+                          <div className="w-8 h-8 rounded-full bg-iba-green/10 text-iba-green flex items-center justify-center font-bold text-xs">
+                            {idx + 1}
+                          </div>
+                          <div>
+                            <h3 className="font-heading text-lg sm:text-xl font-bold text-[#1c2618]">
+                              {membro.nome}
+                            </h3>
+                            <span className="text-[11px] font-tech text-stone-500 uppercase tracking-wide">
+                              {membro.cargo}
+                            </span>
+                          </div>
+                        </div>
+
+                        <ChevronDown className={`w-5 h-5 text-stone-400 transition-transform duration-300 ${isExpanded ? "rotate-180 text-iba-green" : ""}`} />
+                      </div>
+
+                      {/* CONTEÚDO EXPANSÍVEL (FOTO + DESCRIÇÃO) */}
+                      <div className={`transition-all duration-500 ease-in-out overflow-hidden ${isExpanded ? "max-h-[300px] opacity-100 p-5 pt-0" : "max-h-0 opacity-0 px-5 py-0"}`}>
+                        <div className="pt-4 border-t border-stone-200/60 flex flex-col sm:flex-row items-center sm:items-start gap-6">
+                          
+                          {/* FOTO DO LÍDER */}
+                          <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl bg-stone-200 relative overflow-hidden shrink-0 shadow-inner border border-stone-300">
+                            {membro.foto && membro.foto.includes("http") ? (
+                              <Image 
+                                src={membro.foto} 
+                                alt={membro.nome} 
+                                fill 
+                                className="object-cover"
+                              />
+                            ) : (
+                              <div className="absolute inset-0 flex flex-col items-center justify-center bg-stone-100 text-stone-400 p-2 text-center">
+                                <Award className="w-8 h-8 mb-1 text-iba-green/60" />
+                                <span className="text-[9px] font-tech uppercase">Sem Foto</span>
+                              </div>
+                            )}
+                          </div>
+
+                          {/* DESCRIÇÃO */}
+                          <div className="flex-1 text-center sm:text-left">
+                            <span className="text-[10px] font-tech uppercase font-bold text-iba-green block mb-1">
+                              Atribuições & Perfil
+                            </span>
+                            <p className="text-xs sm:text-sm text-stone-700 font-sans leading-relaxed">
+                              {membro.descricao}
+                            </p>
+                          </div>
+
+                        </div>
+                      </div>
+
+                    </div>
+                  );
+                })}
+              </div>
+
+            </div>
+          ))}
+        </div>
+
+      </main>
 
       <Footer />
     </div>

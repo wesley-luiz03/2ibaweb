@@ -1,0 +1,258 @@
+[
+  {
+    "id": "pastoral",
+    "titulo": "Ministério Pastoral",
+    "sub": "Liderança & Orientação Espiritual",
+    "membros": [
+      {
+        "nome": "Pr. Jocksan Barbosa",
+        "cargo": "Pastor Titular",
+        "descricao": "Direção espiritual geral, pregação da Palavra, visão ministerial e acompanhamento pastoral da comunidade.",
+        "foto": ""
+      },
+      {
+        "nome": "Pr. Rafael Malafaia",
+        "cargo": "Pastor Auxiliar",
+        "descricao": "Auxílio direto na condução dos cultos, aconselhamento e frentes de ensino e comunhão.",
+        "foto": ""
+      },
+      {
+        "nome": "Diác. Paulo Pessoa",
+        "cargo": "Vice Moderador",
+        "descricao": "Apoio administrativo e eclesiástico na liderança e deliberações da igreja.",
+        "foto": ""
+      },
+      {
+        "nome": "Pr. Sérgio Pereira",
+        "cargo": "Auxílio Pastoral",
+        "descricao": "Apoio ministerial e coordenação de projetos de artes gráficas e publicações.",
+        "foto": ""
+      },
+      {
+        "nome": "Pr. Flavius Costa",
+        "cargo": "Auxílio Pastoral",
+        "descricao": "Apoio ministerial e atuação junto ao Ministério de Evangelismo e Missões.",
+        "foto": ""
+      }
+    ]
+  },
+  {
+    "id": "diaconal",
+    "titulo": "Ministério Diaconal",
+    "sub": "Organização & Cuidado Prático",
+    "membros": [
+      {
+        "nome": "Tony Félix",
+        "cargo": "Coordenador Diaconal",
+        "descricao": "Zela pelo bom andamento organizacional da igreja, preparação da Ceia e assistência às famílias.",
+        "foto": ""
+      },
+      {
+        "nome": "Abinoan Barbosa",
+        "cargo": "Diácono",
+        "descricao": "Auxílio no cuidado do patrimônio, ordem nos cultos e visitas de assistência humanitária.",
+        "foto": ""
+      }
+    ]
+  },
+  {
+    "id": "diretoria",
+    "titulo": "Diretoria",
+    "sub": "Gestão & Secretaria",
+    "membros": [
+      {
+        "nome": "Moíses Lopes",
+        "cargo": "Primeiro Tesoureiro",
+        "descricao": "Gestão financeira, controle orçamentário e relatórios contábeis da instituição.",
+        "foto": ""
+      },
+      {
+        "nome": "Diác. Geovane Braz",
+        "cargo": "Segundo Tesoureiro",
+        "descricao": "Apoio direto na tesouraria e organização financeira dos departamentos.",
+        "foto": ""
+      },
+      {
+        "nome": "Teresinha Alves",
+        "cargo": "Primeira Secretária",
+        "descricao": "Atas de reuniões, registo de membros e correspondências oficiais.",
+        "foto": ""
+      },
+      {
+        "nome": "Ana Raquel Santos Rosádia",
+        "cargo": "Segunda Secretária",
+        "descricao": "Apoio na secretaria geral e organização documental da igreja.",
+        "foto": ""
+      }
+    ]
+  },
+  {
+    "id": "juventude",
+    "titulo": "Juventude e Adolescentes",
+    "sub": "Geração Ativa",
+    "membros": [
+      {
+        "nome": "Rafinha e Kellynha",
+        "cargo": "Líderes de Jovens e Adolescentes",
+        "descricao": "Coordenação de retiros, sociais, aconselhamento, pequenos grupos (PGs), Acampa Teens e EJC.",
+        "foto": ""
+      }
+    ]
+  },
+  {
+    "id": "comunicacao",
+    "titulo": "Ministério de Comunicação",
+    "sub": "Mídias & Transmissões",
+    "membros": [
+      {
+        "nome": "Deiver e Laiza",
+        "cargo": "Líderes de Comunicação",
+        "descricao": "Gestão de mídias sociais, transmissões ao vivo, coberturas fotográficas/vídeo e produção multimídia.",
+        "foto": ""
+      }
+    ]
+  },
+  {
+    "id": "artes-graficas",
+    "titulo": "Artes Gráficas",
+    "sub": "Impressos & Publicações",
+    "membros": [
+      {
+        "nome": "Pr. Sérgio Pereira",
+        "cargo": "Líder de Artes Gráficas",
+        "descricao": "Criação de boletins, folhetos, banners, apostilas e materiais didáticos para a EBD e NG.",
+        "foto": ""
+      }
+    ]
+  },
+  {
+    "id": "educacao-religiosa",
+    "titulo": "Educação Religiosa",
+    "sub": "Ensino & Currículo",
+    "membros": [
+      {
+        "nome": "Neusa Pereira",
+        "cargo": "Líder de Educação Religiosa",
+        "descricao": "Planejamento estratégico educacional, currículo de ensino, formação de professores, EBD e EBF.",
+        "foto": ""
+      }
+    ]
+  },
+  {
+    "id": "evangelismo-missoes",
+    "titulo": "Evangelismo e Missões",
+    "sub": "Ide por Todo o Mundo",
+    "membros": [
+      {
+        "nome": "Pr. Flavius e Pollyana",
+        "cargo": "Líderes de Missões",
+        "descricao": "Escola de missões, evangelismo pessoal, apoio a campos missionários, campanhas e projetos PEPE.",
+        "foto": ""
+      }
+    ]
+  },
+  {
+    "id": "familia",
+    "titulo": "Ministério da Família",
+    "sub": "Casais & Lares",
+    "membros": [
+      {
+        "nome": "Geovane e Nalva",
+        "cargo": "Líderes do Ministério da Família",
+        "descricao": "Coordenação do ECC, retiros masculinos e femininos, cursos MMI e aconselhamento de casais.",
+        "foto": ""
+      }
+    ]
+  },
+  {
+    "id": "infantil",
+    "titulo": "Ministério Infantil",
+    "sub": "Nova Geração Kids",
+    "membros": [
+      {
+        "nome": "Leandro e Késia",
+        "cargo": "Líderes do Ministério Infantil",
+        "descricao": "Coordenação do Culto Infantil Nova Geração, EBD Infantil, berçário, EBF e Day Camp.",
+        "foto": ""
+      }
+    ]
+  },
+  {
+    "id": "acao-social",
+    "titulo": "Ação Social",
+    "sub": "Amor Prático",
+    "membros": [
+      {
+        "nome": "Eziel e Joselma",
+        "cargo": "Líderes de Ação Social",
+        "descricao": "Atendimento a necessidades físicas, emocionais e espirituais, visitas e parcerias com o PEPE.",
+        "foto": ""
+      }
+    ]
+  },
+  {
+    "id": "intercessao",
+    "titulo": "Ministério de Intercessão",
+    "sub": "Clamor & Vigílias",
+    "membros": [
+      {
+        "nome": "Ricardo e Gerlane",
+        "cargo": "Líderes de Intercessão",
+        "descricao": "Coordenação de mulheres de oração, Gideões da Oração, vigílias e intercessão nos cultos.",
+        "foto": ""
+      }
+    ]
+  },
+  {
+    "id": "maos-de-deus",
+    "titulo": "Mãos de Deus (LIBRAS)",
+    "sub": "Inclusão & Surdos",
+    "membros": [
+      {
+        "nome": "Elizio Gomes",
+        "cargo": "Líder do Ministério Mãos de Deus",
+        "descricao": "Ensino em LIBRAS, integração, evangelismo, estudos bíblicos e discipulado para surdos.",
+        "foto": ""
+      }
+    ]
+  },
+  {
+    "id": "musica",
+    "titulo": "Ministério de Música",
+    "sub": "Louvor & Adoração",
+    "membros": [
+      {
+        "nome": "Indefinido",
+        "cargo": "Líder de Música",
+        "descricao": "Direção do grupo de louvor, louvor NG, corais, coreart, som, bandas e escola de música.",
+        "foto": ""
+      }
+    ]
+  },
+  {
+    "id": "terceira-idade",
+    "titulo": "Terceira Idade",
+    "sub": "Comunhão & Experiência",
+    "membros": [
+      {
+        "nome": "Carmita",
+        "cargo": "Líder da Terceira Idade",
+        "descricao": "Organização do retiro do idoso, oficinas de artesanato, visitas e bazares solidários.",
+        "foto": ""
+      }
+    ]
+  },
+  {
+    "id": "administrativo",
+    "titulo": "Grupo Administrativo",
+    "sub": "Apoio Institucional",
+    "membros": [
+      {
+        "nome": "Paulo Pessoa, Hugo Lins, Waldemir Barbosa, Isaías Marques, Williams da Cunha",
+        "cargo": "Equipe de Apoio Administrativo",
+        "descricao": "Suporte administrativo, logístico e patrimonial às atividades da igreja.",
+        "foto": ""
+      }
+    ]
+  }
+]

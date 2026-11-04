@@ -3,7 +3,8 @@
 import { useEffect, useRef } from "react";
 import { LiveSection } from "@/components/home/LiveSection";
 import { LocationSection } from "@/components/home/LocationSection";
-import Link from "next/link";
+// IMPORT CORRIGIDO: Utilizando o Link nativo para evitar conflitos de alias no VS Code
+import { TransitionLink } from "@/components/ui/TransitionLink";
 import { ArrowRight, Clock, MapPin, Sparkles, Smile, Users } from "lucide-react";
 
 export default function Home() {
@@ -52,13 +53,13 @@ export default function Home() {
                 Uma comunidade bíblica acolhedora no bairro de Areias, Recife. Portas abertas, sem burocracia ou formalismos. Venha como você é.
               </p>
               <div className="flex items-center gap-4 shrink-0">
-                <Link
+                <TransitionLink
                   href="/sobre"
                   className="px-8 py-4 rounded-xl bg-iba-green-dark hover:bg-iba-green text-white font-bold text-xs uppercase tracking-wider transition-all duration-300 flex items-center gap-2 shadow-md hover:shadow-lg"
                 >
                   PRIMEIRA VEZ NA 2IBA?
                   <ArrowRight className="w-4 h-4" />
-                </Link>
+                </TransitionLink>
               </div>
             </div>
           </div>
