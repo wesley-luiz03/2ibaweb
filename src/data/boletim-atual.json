@@ -1,0 +1,51 @@
+{
+  "dataEdicao": "Novembro de 2026",
+  "cultoDiurno": {
+    "titulo": "CULTO DIURNO",
+    "subtitulo": "EBD / Manhã",
+    "leitura": {
+      "referencia": "Salmos 103:10-14",
+      "texto": "Pois ele conhece a nossa estrutura; lembra-se de que somos pó. O homem tem os seus dias como a relva; como a flor do campo, assim floresce. Passando por ela o vento, logo se vai, e o seu lugar não mais a conhece. Mas a misericórdia do Deus Eterno é desde a eternidade e até a eternidade sobre os que o temem, e a sua justiça sobre os filhos dos filhos..."
+    },
+    "itens": [
+      "Boas vindas e Oração",
+      "Momento de Louvor"
+    ],
+    "itensFinais": [
+      "Comunicações",
+      "Momento Missionário",
+      "Dízimos e Ofertas",
+      "Homenagem / Oportunidades",
+      "Mensagem Bíblica: Thiago Cezar",
+      "Oração e Bênção"
+    ]
+  },
+  "cultoNoturno": {
+    "titulo": "CULTO NOTURNO",
+    "subtitulo": "Culto da Família",
+    "leitura": {
+      "referencia": "Salmos 119:57-64",
+      "texto": "Tu és a minha porção, ó Senhor; disse que guardaria as tuas palavras. Implorei o teu favor de todo o coração; compadece-te de mim segundo a tua palavra. Considerei os meus caminhos e os meus passos volvi para os teus testemunhos. Apressei-me e não detive os meus passos a guardar os teus mandamentos. Cordas de ímpios me cercaram, mas não me esqueci da tua lei..."
+    },
+    "itens": [
+      "Boas Vindas / Oração",
+      "Momento de Louvor",
+      "Saída Nova Geração e Berçário"
+    ],
+    "itensFinais": [
+      "Comunicações",
+      "Dízimos e Ofertas",
+      "Inspiração Musical",
+      "Mensagem Bíblica: Pr. Jocksan Barbosa",
+      "Oração e Bênção",
+      "Música Final"
+    ]
+  },
+  "dadosBancarios": {
+    "banco": "SANTANDER",
+    "agencia": "3757",
+    "conta": "CC 13000045-9",
+    "cnpj": "11547361/0001-79",
+    "pix": "11547361000179"
+  }
+}
